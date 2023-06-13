@@ -1,0 +1,99 @@
+.layout {
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  background-color: rgba(70, 31, 9, 0.815);
+  height: 100vh;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.PhotoAbout {
+  margin: 16px;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.photo {
+  max-width: 50%;
+  display: flex;
+}
+
+.PhotoCat {
+  width: 100%;
+}
+
+.AboutTextContainer {
+  background-color: lightgray;
+  display: flex;
+  min-width: 50%;
+}
+
+.WorksText {
+  width: 100%;
+  background-color: lightgray;
+  margin: 16px;
+}
+
+.MyWorksText {
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.AboutText {
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Works {
+  margin: 16px;
+  padding: 16px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-direction: row;
+}
+
+.Work {
+  background-color: white;
+  display: flex;
+  max-width: 100%;
+}
+
+.WorkContainer {
+  flex: 1;
+}
+
+.ContactsContainer {
+  background-color: lightgray;
+  width: 100%;
+  margin: 16px;
+  display: flex;
+  min-height: 70px;
+  flex-direction: row;
+}
+
+.InstaContainer {
+  height: 100%;
+  width: 33%;
+}
+.PhotoInsta {
+  height: 100%;
+  width: 50%;
+}
+
+.VKContainer {
+  height: 100%;
+  width: 33%;
+}
+.PhotoVK {
+  height: 100%;
+  width: 50%;
+}
+
+.ContactsText {
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+}

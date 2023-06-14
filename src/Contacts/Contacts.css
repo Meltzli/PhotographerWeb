@@ -1,0 +1,40 @@
+.ContactsContainer {
+  background-color: lightgray;
+  width: 100%;
+  display: flex;
+  min-height: 70px;
+  flex-direction: row;
+}
+
+.InstaContainer {
+  height: 100%;
+  width: 20%;
+}
+.PhotoInsta {
+  height: 100%;
+  width: 50%;
+}
+
+.VKContainer {
+  height: 100%;
+  width: 20%;
+}
+.PhotoVK {
+  height: 100%;
+  width: 50%;
+}
+
+.ContactsText {
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.PhoneNumberContainer {
+  height: 100%;
+  width: 20%;
+}
+
+.PhoneNumberText {
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+}

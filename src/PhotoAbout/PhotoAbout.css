@@ -1,0 +1,26 @@
+.PhotoAbout {
+  margin: 16px;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.photo {
+  max-width: 50%;
+  display: flex;
+}
+
+.PhotoCat {
+  width: 100%;
+}
+
+.AboutTextContainer {
+  background-color: lightgray;
+  display: flex;
+  min-width: 50%;
+}
+
+.AboutText {
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}

@@ -1,0 +1,31 @@
+.WorksText {
+  width: 100%;
+  background-color: lightgray;
+  margin: 16px;
+}
+
+.MyWorksText {
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Works {
+  margin: 16px;
+  padding: 16px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-direction: row;
+}
+
+.Work {
+  background-color: white;
+  display: flex;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.WorkContainer {
+  flex: 1;
+}

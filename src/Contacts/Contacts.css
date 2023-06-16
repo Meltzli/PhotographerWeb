@@ -1,9 +1,12 @@
 .ContactsContainer {
-  background-color: lightgray;
+  background-color: rgba(71, 26, 26, 0.425);
   width: 100%;
   display: flex;
   min-height: 70px;
   flex-direction: row;
+  align-items: center;
+  flex: 1 0 auto;
+  justify-content: center;
 }
 
 .InstaContainer {
@@ -11,8 +14,8 @@
   width: 20%;
 }
 .PhotoInsta {
-  height: 100%;
-  width: 50%;
+  height: 25%;
+  width: 25%;
 }
 
 .VKContainer {
@@ -20,13 +23,8 @@
   width: 20%;
 }
 .PhotoVK {
-  height: 100%;
-  width: 50%;
-}
-
-.ContactsText {
-  font-size: x-large;
-  font-family: "Times New Roman", Times, serif;
+  height: 25%;
+  width: 25%;
 }
 
 .PhoneNumberContainer {

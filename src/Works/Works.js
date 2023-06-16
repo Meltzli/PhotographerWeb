@@ -1,19 +1,34 @@
 import "./Works.css";
-import dog1 from "../photos/dog1.jpg";
-import dog2 from "../photos/dog2.jpg";
+import Carousel, { slidesToShowPlugin } from "@brainhubeu/react-carousel";
+import { worksImages } from "./worksImages";
+import "@brainhubeu/react-carousel/lib/style.css";
 export const Works = () => {
+  const mapResult = worksImages.map((work, index) => (
+    <div key={work} className="WorkContainer">
+      <img className="Work" src={work} alt={`${index}`} />
+    </div>
+  ));
+  const myWorksText = "Мои работы";
+  const coruselPlugins = [
+    "arrows",
+    "infinite",
+    {
+      resolve: slidesToShowPlugin,
+      options: {
+        numberOfSlides: 3,
+      },
+    },
+  ];
+
   return (
     <div>
       <div className="WorksText">
-        <p className="MyWorksText">Мои работы</p>
+        <p className="MyWorksText"> {myWorksText} </p>
       </div>
       <div className="Works">
-        <div className="WorkContainer">
-          <img className="Work" src={dog1} alt="dog1" />
-        </div>
-        <div className="WorkContainer">
-          <img className="Work" src={dog2} alt="dog2" />
-        </div>
+        <Carousel className="Carousel" plugins={coruselPlugins}>
+          {mapResult}
+        </Carousel>
       </div>
     </div>
   );

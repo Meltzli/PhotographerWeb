@@ -1,0 +1,73 @@
+.HeaderContainer {
+  background-color: rgba(71, 26, 26, 0.425);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.LogoContainer {
+  padding: 16px;
+  max-width: 25%;
+  border-radius: 50%;
+  height: 50%;
+  align-self: center;
+  border-radius: solid black 50px;
+}
+
+.LogoContainer > p {
+  word-break: keep-all;
+}
+.HeaderNavBar {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.AboutMeAvatarNavBar {
+  /* min-height: 100%; */
+  flex: 1;
+}
+
+.WorksNavBar {
+  /* min-height: 100%; */
+  flex: 1;
+}
+
+.ContactsNavBar {
+  /* min-height: 100%; */
+  flex: 1;
+}
+
+.AboutMeNavBarTextCont {
+  /* padding: 16px; */
+}
+
+.WorksNavBarTextCont {
+  /* padding: 16px; */
+}
+
+.ContactsNavBarTextCont {
+}
+
+.divider {
+  margin: 20px 0;
+  padding: 4px 0;
+  border-right: 2px solid rgba(71, 26, 26, 0.425);
+}
+
+.ContactsNavBarTextCont.divider {
+  border-right: unset;
+  border-bottom: unset;
+}
+
+@media (max-width: 500px) {
+  .HeaderNavBar {
+    flex-direction: column;
+  }
+  .divider {
+    border-bottom: 2px solid rgba(71, 26, 26, 0.425);
+    border-right: unset;
+    margin: 0 20px;
+  }
+}

@@ -2,7 +2,7 @@ import "./Works.css";
 import Carousel, { slidesToShowPlugin } from "@brainhubeu/react-carousel";
 import { worksImages } from "./worksImages";
 import "@brainhubeu/react-carousel/lib/style.css";
-export const Works = () => {
+export const Works = ({ innerref }) => {
   const mapResult = worksImages.map((work, index) => (
     <div key={work} className="WorkContainer">
       <img className="Work" src={work} alt={`${index}`} />
@@ -21,7 +21,7 @@ export const Works = () => {
   ];
 
   return (
-    <div>
+    <div ref={innerref}>
       <div className="WorksText">
         <p className="MyWorksText"> {myWorksText} </p>
       </div>

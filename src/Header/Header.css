@@ -8,10 +8,10 @@
 .LogoContainer {
   padding: 16px;
   max-width: 25%;
-  border-radius: 50%;
+  border-radius: 0 50% 50% 0;
   height: 50%;
   align-self: center;
-  border-radius: solid black 50px;
+  background-color: rgba(71, 26, 26, 0.674);
 }
 
 .LogoContainer > p {

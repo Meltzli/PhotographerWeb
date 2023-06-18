@@ -1,8 +1,8 @@
 import "./PhotoAbout.css";
 import DianaAvatar from "../photos/DianaAvatar.jpg";
-export const PhotoAbout = () => {
+export const PhotoAbout = (props) => {
   return (
-    <div className="PhotoAboutContainer">
+    <div ref={props.innerref} className="PhotoAboutContainer">
       <div className="PhotoAbout">
         <div className="photo">
           <img className="DianaAvatar" src={DianaAvatar} alt="Avatar" />

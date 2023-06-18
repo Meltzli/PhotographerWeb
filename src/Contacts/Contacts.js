@@ -1,18 +1,24 @@
 import "./Contacts.css";
 import insta from "../photos/Instapng.png";
 import VK from "../photos/VKpng.png";
-export const Contacts = () => {
+import PhonePng from "../photos/phonepng.png";
+export const Contacts = ({ innerref }) => {
   return (
     <div>
-      <div className="ContactsContainer">
+      <div ref={innerref} className="ContactsContainer">
         <div className="InstaContainer">
-          <img className="PhotoInsta" src={insta} alt="instagram" />
+          <a href="https://vk.com/krotova_diano4ka">
+            <img className="PhotoInsta" src={insta} alt="instagram" />
+          </a>
         </div>
         <div className="VKContainer">
-          <img className="PhotoVK" src={VK} alt="VK" />
+          <a href="https://vk.com/krotova_diano4ka">
+            <img className="PhotoVK" src={VK} alt="VK" />
+          </a>
         </div>
         <div className="PhoneNumberContainer">
-          <p className="PhoneNumberText">Телефонный номер</p>
+          <img className="PhonePng" src={PhonePng} alt="PhoneNumber" />
+          <p className="PhoneNumberText">7910912319231</p>
         </div>
       </div>
     </div>

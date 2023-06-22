@@ -8,17 +8,21 @@ export const Contacts = ({ innerref }) => {
       <div ref={innerref} className="ContactsContainer">
         <div className="InstaContainer">
           <a href="https://vk.com/krotova_diano4ka">
-            <img className="PhotoInsta" src={insta} alt="instagram" />
+            <img className="PhotoInsta PngZoom" src={insta} alt="instagram" />
           </a>
         </div>
-        <div className="VKContainer">
+        <div className="VKContainer ">
           <a href="https://vk.com/krotova_diano4ka">
-            <img className="PhotoVK" src={VK} alt="VK" />
+            <img className="PhotoVK PngZoom" src={VK} alt="VK" />
           </a>
         </div>
         <div className="PhoneNumberContainer">
           <a href="tel:+123456789">
-            <img className="PhonePng" src={PhonePng} alt="PhoneNumber" />
+            <img
+              className="PhonePng PngZoom"
+              src={PhonePng}
+              alt="PhoneNumber"
+            />
           </a>
         </div>
       </div>

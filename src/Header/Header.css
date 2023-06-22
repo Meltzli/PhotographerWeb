@@ -8,7 +8,7 @@
 
 .LogoContainer {
   padding: 16px;
-  max-width: 25%;
+  max-width: 19%;
   border-radius: 0 50% 50% 0;
   height: 50%;
   align-self: center;
@@ -23,18 +23,9 @@
   min-height: 100%;
   display: flex;
   flex-direction: row;
-  flex: 1;
 }
 
-.AboutMeAvatarNavBar {
-  flex: 1;
-}
-
-.WorksNavBar {
-  flex: 1;
-}
-
-.ContactsNavBar {
+.FlexSize {
   flex: 1;
 }
 
@@ -67,6 +58,9 @@
 }
 
 .NavButton:hover {
+  transform: scale(1.1);
+  transform-origin: center;
+  transition: 1s;
   background: linear-gradient(
     50deg,
     #b87517,
@@ -95,6 +89,5 @@
 @media (min-width: 800px) {
   .HeaderText {
     font-size: 1.75em;
-    font-family: "Times New Roman", Times, serif;
   }
 }

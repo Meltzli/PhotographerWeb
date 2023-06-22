@@ -17,8 +17,11 @@ export const Header = (props) => {
       <div className="LogoContainer">
         <p className="HeaderText">Diana Photographer </p>
       </div>
-      <div className="HeaderNavBar">
-        <div onClick={onClickToAboutMe} className="AboutMeAvatarNavBar">
+      <div className="HeaderNavBar FlexSize">
+        <div
+          onClick={onClickToAboutMe}
+          className="AboutMeAvatarNavBar FlexSize"
+        >
           <div className="AboutMeNavBarTextCont divider">
             {" "}
             <button className="NavButton">
@@ -26,7 +29,7 @@ export const Header = (props) => {
             </button>
           </div>
         </div>
-        <div className="WorksNavBar">
+        <div className="WorksNavBar FlexSize">
           <div
             onClick={onClickToWorksRef}
             className="WorksNavBarTextCont divider"
@@ -36,7 +39,7 @@ export const Header = (props) => {
             </button>
           </div>
         </div>
-        <div className="ContactsNavBar">
+        <div className="ContactsNavBar FlexSize">
           <div
             onClick={onClickToContactsRef}
             className="ContactsNavBarTextCont divider"

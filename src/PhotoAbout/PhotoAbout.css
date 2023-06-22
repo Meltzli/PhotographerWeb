@@ -8,8 +8,6 @@
 }
 
 .PhotoAbout {
-  max-width: 100%;
-  max-height: 100%;
   display: flex;
   padding: 40px;
   justify-content: space-between;
@@ -27,7 +25,7 @@
   border-color: rgba(150, 114, 68, 0.521);
 }
 
-.DianaAvatar.border {
+.DianaAvatar:hover {
   background: linear-gradient(
     50deg,
     #b87517,
@@ -54,12 +52,10 @@
 
 .AboutTextContainer {
   max-width: 100%;
-  border-radius: 3px;
 }
 
 .AboutText {
-  font-size: xx-large;
-  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
 }
 
 @media (max-width: 600px) {

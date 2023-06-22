@@ -19,9 +19,6 @@
   width: 50px;
   height: 50px;
 }
-.PhotoInsta:hover {
-  zoom: 125%;
-}
 
 .VKContainer {
   display: flex;
@@ -32,10 +29,6 @@
   align-self: center;
   width: 50px;
   height: 50px;
-}
-
-.PhotoVK:hover {
-  zoom: 125%;
 }
 
 .PhoneNumberContainer {
@@ -50,10 +43,10 @@
   align-self: center;
 }
 
-.PhonePng:hover {
-  zoom: 125%;
-}
-
 .PhoneNumberText {
   align-self: flex-end;
+}
+
+.PngZoom:hover {
+  zoom: 125%;
 }

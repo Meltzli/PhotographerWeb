@@ -17,8 +17,9 @@ export const Contacts = ({ innerref }) => {
           </a>
         </div>
         <div className="PhoneNumberContainer">
-          <img className="PhonePng" src={PhonePng} alt="PhoneNumber" />
-          <p className="PhoneNumberText">7910912319231</p>
+          <a href="tel:+123456789">
+            <img className="PhonePng" src={PhonePng} alt="PhoneNumber" />
+          </a>
         </div>
       </div>
     </div>

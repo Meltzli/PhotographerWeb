@@ -1,24 +1,29 @@
 import "./Header.css";
 
-export const Header = ({ PhotoAboutRef, WorksRef }) => {
+export const Header = (props) => {
+  const { photoAboutRef, worksRef, contactsRef } = props;
+
   const onClickToAboutMe = () => {
-    PhotoAboutRef.current?.scrollIntoView({ behavior: "smooth" });
+    photoAboutRef.current?.scrollIntoView({ behavior: "smooth" });
   };
   const onClickToWorksRef = () => {
-    WorksRef.current?.scrollIntoView({ behavior: "smooth" });
+    worksRef.current?.scrollIntoView({ behavior: "smooth" });
   };
   const onClickToContactsRef = () => {
-    WorksRef.current?.scrollIntoView({ behavior: "smooth" });
+    contactsRef.current?.scrollIntoView({ behavior: "smooth" });
   };
   return (
     <div className="HeaderContainer">
       <div className="LogoContainer">
-        <p> Diana Photographer </p>
+        <p className="HeaderText">Diana Photographer </p>
       </div>
       <div className="HeaderNavBar">
         <div onClick={onClickToAboutMe} className="AboutMeAvatarNavBar">
           <div className="AboutMeNavBarTextCont divider">
-            <p>AboutMe</p>
+            {" "}
+            <button className="NavButton">
+              <p className="HeaderText">Обо мне</p>{" "}
+            </button>
           </div>
         </div>
         <div className="WorksNavBar">
@@ -26,7 +31,9 @@ export const Header = ({ PhotoAboutRef, WorksRef }) => {
             onClick={onClickToWorksRef}
             className="WorksNavBarTextCont divider"
           >
-            <p>Works</p>
+            <button className="NavButton">
+              <p className="HeaderText">Мои работы</p>
+            </button>
           </div>
         </div>
         <div className="ContactsNavBar">
@@ -34,7 +41,9 @@ export const Header = ({ PhotoAboutRef, WorksRef }) => {
             onClick={onClickToContactsRef}
             className="ContactsNavBarTextCont divider"
           >
-            <p>PupaLupa</p>
+            <button className="NavButton">
+              <p className="HeaderText">Контакты</p>
+            </button>
           </div>
         </div>
       </div>

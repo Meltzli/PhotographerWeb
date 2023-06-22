@@ -4,22 +4,23 @@ import { Works } from "../Works/Works";
 import { Contacts } from "../Contacts/Contacts";
 import { Header } from "../Header/Header";
 import { useRef } from "react";
+
 export const Layout = () => {
-  const PhotoAboutRef = useRef(null);
+  const photoAboutRef = useRef(null);
   const worksRef = useRef(null);
-  const ContactsRef = useRef(null);
+  const contactsRef = useRef(null);
   return (
     <div>
       <Header
-        PhotoAboutRef={PhotoAboutRef}
-        WorksRef={worksRef}
-        ContactsRef={ContactsRef}
+        photoAboutRef={photoAboutRef}
+        worksRef={worksRef}
+        contactsRef={contactsRef}
       />
       <div className="layout">
-        <PhotoAbout innerref={PhotoAboutRef} />
+        <PhotoAbout innerref={photoAboutRef} />
         <Works innerref={worksRef} />
       </div>
-      <Contacts innerref={ContactsRef} />
+      <Contacts innerref={contactsRef} />
     </div>
   );
 };

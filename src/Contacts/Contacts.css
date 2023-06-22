@@ -1,10 +1,12 @@
 .ContactsContainer {
-  background-color: rgba(71, 26, 26, 0.425);
+  background-color: rgba(203, 156, 56, 0.695);
   display: flex;
   min-height: 70px;
   flex-direction: row;
   flex: 1 0 auto;
   justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px black;
 }
 
 .InstaContainer {
@@ -16,6 +18,9 @@
   align-self: center;
   width: 50px;
   height: 50px;
+}
+.PhotoInsta:hover {
+  zoom: 125%;
 }
 
 .VKContainer {
@@ -29,6 +34,10 @@
   height: 50px;
 }
 
+.PhotoVK:hover {
+  zoom: 125%;
+}
+
 .PhoneNumberContainer {
   display: flex;
   justify-content: center;
@@ -39,6 +48,10 @@
   width: 50px;
   height: 50px;
   align-self: center;
+}
+
+.PhonePng:hover {
+  zoom: 125%;
 }
 
 .PhoneNumberText {

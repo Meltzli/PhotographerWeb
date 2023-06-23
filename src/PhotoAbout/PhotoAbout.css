@@ -8,15 +8,14 @@
 }
 
 .PhotoAbout {
-  max-width: 100%;
-  max-height: 100%;
   display: flex;
   padding: 40px;
   justify-content: space-between;
 }
 
 .photo {
-  max-width: 100%;
+  flex: 1;
+  min-width: 30%;
 }
 
 .DianaAvatar {
@@ -26,12 +25,42 @@
   border-color: rgba(150, 114, 68, 0.521);
 }
 
+.DianaAvatar:hover {
+  background: linear-gradient(
+    50deg,
+    #b87517,
+    #e2a248,
+    #ba6d1f,
+    #b49999ee,
+    #953a23
+  );
+  background-size: 1000% 1000%;
+  animation: AvaBorderGradient 5s ease infinite;
+}
+
+@keyframes AvaBorderGradient {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
 .AboutTextContainer {
   max-width: 100%;
-  border-radius: 3px;
 }
 
 .AboutText {
-  font-size: xx-large;
-  font-family: "Nevduplenysh";
+  font-size: 2em;
+}
+
+@media (max-width: 600px) {
+  .PhotoAbout {
+    display: flex;
+    flex-direction: column;
+  }
 }

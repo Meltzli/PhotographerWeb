@@ -2,16 +2,25 @@ import "./Works.css";
 import Carousel, { slidesToShowPlugin } from "@brainhubeu/react-carousel";
 import { worksImages } from "./worksImages";
 import "@brainhubeu/react-carousel/lib/style.css";
-export const Works = () => {
-  const mapResult = worksImages.map((work, index) => (
-    <div key={work} className="WorkContainer">
-      <img className="Work" src={work} alt={`${index}`} />
-    </div>
-  ));
+let coruselPluginsObj = {
+  plugin1: "arrows",
+  plugin2: "infinite",
+  // Создал обьект с названием coruselPluginsObj, с 2 ключами plugin1/2 со значениями arrows и infinite
+};
+export const Works = ({ innerref }) => {
+  function callBack(work, index) {
+    return (
+      <div key={work} className="WorkContainer">
+        <img className="Work" src={work} alt={`${index}`} />
+      </div>
+    );
+  }
+  const mapResult = worksImages.map(callBack);
   const myWorksText = "Мои работы";
   const coruselPlugins = [
-    "arrows",
-    "infinite",
+    coruselPluginsObj.plugin1,
+    coruselPluginsObj.plugin2,
+    // использовал свойста обьекта
     {
       resolve: slidesToShowPlugin,
       options: {
@@ -21,7 +30,7 @@ export const Works = () => {
   ];
 
   return (
-    <div>
+    <div ref={innerref}>
       <div className="WorksText">
         <p className="MyWorksText"> {myWorksText} </p>
       </div>

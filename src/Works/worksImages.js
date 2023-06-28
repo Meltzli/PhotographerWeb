@@ -5,36 +5,36 @@ import photoset14 from "../photos/portfolio/photoset-1-4.JPG";
 import photoset15 from "../photos/portfolio/photoset-1-5.JPG";
 import photoset16 from "../photos/portfolio/photoset-1-6.JPG";
 import photoset17 from "../photos/portfolio/photoset-1-7.JPG";
-import photoset111 from "../photos/portfolio/photoset111.JPG";
-import photoset112 from "../photos/portfolio/photoset112.JPG";
-import photoset113 from "../photos/portfolio/photoset113.JPG";
-import photoset114 from "../photos/portfolio/photoset114.JPG";
-import photoset115 from "../photos/portfolio/photoset115.JPG";
-import photoset116 from "../photos/portfolio/photoset116.JPG";
-import photoset117 from "../photos/portfolio/photoset117.JPG";
-import photoset118 from "../photos/portfolio/photoset118.JPG";
-import photoset119 from "../photos/portfolio/photoset119.JPG";
-import photoset120 from "../photos/portfolio/photoset120.JPG";
-import photoset121 from "../photos/portfolio/photoset121.JPG";
-import photoset122 from "../photos/portfolio/photoset122.JPG";
-import photoset123 from "../photos/portfolio/photoset123.JPG";
-import photoset124 from "../photos/portfolio/photoset124.JPG";
-import photoset125 from "../photos/portfolio/photoset125.JPG";
-import photoset126 from "../photos/portfolio/photoset126.JPG";
-import photoset127 from "../photos/portfolio/photoset127.JPG";
-import photoset128 from "../photos/portfolio/photoset128.JPG";
-import photoset129 from "../photos/portfolio/photoset129.JPG";
-import photoset130 from "../photos/portfolio/photoset130.JPG";
-import photoset131 from "../photos/portfolio/photoset131.JPG";
-import photoset132 from "../photos/portfolio/photoset132.JPG";
-import photoset133 from "../photos/portfolio/photoset133.JPG";
-import photoset134 from "../photos/portfolio/photoset134.JPG";
-import photoset135 from "../photos/portfolio/photoset135.JPG";
-import photoset136 from "../photos/portfolio/photoset136.JPG";
-import photoset137 from "../photos/portfolio/photoset137.JPG";
-import photoset138 from "../photos/portfolio/photoset138.JPG";
+import photoset21 from "../photos/portfolio/photoset2-1.JPG";
+import photoset22 from "../photos/portfolio/photoset2-2.JPG";
+import photoset23 from "../photos/portfolio/photoset2-3.JPG";
+import photoset24 from "../photos/portfolio/photoset2-4.JPG";
+import photoset25 from "../photos/portfolio/photoset2-5.JPG";
+import photoset26 from "../photos/portfolio/photoset2-6.JPG";
+import photoset31 from "../photos/portfolio/photoset3-1.JPG";
+import photoset32 from "../photos/portfolio/photoset3-2.JPG";
+import photoset41 from "../photos/portfolio/photoset4-1.JPG";
+import photoset42 from "../photos/portfolio/photoset4-2.JPG";
+import photoset43 from "../photos/portfolio/photoset4-3.JPG";
+import photoset44 from "../photos/portfolio/photoset4-4.JPG";
+import photoset51 from "../photos/portfolio/photoset5-1.JPG";
+import photoset52 from "../photos/portfolio/photoset5-2.JPG";
+import photoset53 from "../photos/portfolio/photoset5-3.JPG";
+import photoset54 from "../photos/portfolio/photoset5-4.JPG";
+import photoset55 from "../photos/portfolio/photoset5-5.JPG";
+import photoset56 from "../photos/portfolio/photoset5-6.JPG";
+import photoset57 from "../photos/portfolio/photoset5-7.JPG";
+import photoset61 from "../photos/portfolio/photoset6-1.JPG";
+import photoset62 from "../photos/portfolio/photoset6-2.JPG";
+import photoset71 from "../photos/portfolio/photoset7-1.JPG";
+import photoset72 from "../photos/portfolio/photoset7-2.JPG";
+import photoset73 from "../photos/portfolio/photoset7-3.JPG";
+import photoset74 from "../photos/portfolio/photoset7-4.JPG";
+import photoset81 from "../photos/portfolio/photoset8-1.JPG";
+import photoset82 from "../photos/portfolio/photoset8-2.JPG";
+import photoset83 from "../photos/portfolio/photoset8-3.JPG";
 
-export const worksImages = [
+export const worksImages1 = [
   photoset11,
   photoset12,
   photoset13,
@@ -42,33 +42,33 @@ export const worksImages = [
   photoset15,
   photoset16,
   photoset17,
-  photoset111,
-  photoset112,
-  photoset113,
-  photoset114,
-  photoset115,
-  photoset116,
-  photoset117,
-  photoset118,
-  photoset119,
-  photoset120,
-  photoset121,
-  photoset122,
-  photoset123,
-  photoset124,
-  photoset125,
-  photoset126,
-  photoset127,
-  photoset128,
-  photoset129,
-  photoset130,
-  photoset131,
-  photoset132,
-  photoset133,
-  photoset134,
-  photoset135,
-  photoset136,
-  photoset137,
-  photoset138,
 ];
-// массив
+
+export const worksImages2 = [
+  photoset21,
+  photoset22,
+  photoset23,
+  photoset24,
+  photoset25,
+  photoset26,
+];
+
+export const worksImages3 = [photoset31, photoset32];
+
+export const worksImages4 = [photoset41, photoset42, photoset43, photoset44];
+
+export const worksImages5 = [
+  photoset51,
+  photoset52,
+  photoset53,
+  photoset54,
+  photoset55,
+  photoset56,
+  photoset57,
+];
+
+export const worksImages6 = [photoset61, photoset62];
+
+export const worksImages7 = [photoset71, photoset72, photoset73, photoset74];
+
+export const worksImages8 = [photoset81, photoset82, photoset83];

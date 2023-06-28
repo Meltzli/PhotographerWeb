@@ -12,7 +12,7 @@
   padding: 16px;
   background-color: white;
   border-radius: 100px;
-  box-shadow: 10px 20px 0 rgba(71, 26, 26, 0.425);
+  box-shadow: 10px 20px 0 #f4db7d;
 }
 
 .Work {
@@ -21,6 +21,24 @@
   display: flex;
   max-width: 100%;
   box-shadow: 10px 10px 20px gray;
+}
+
+.Work:hover {
+  background: linear-gradient(50deg, #f4da7d73, rgb(122, 122, 229));
+  background-size: 1000% 1000%;
+  animation: AvaBorderGradient 5s ease infinite;
+}
+
+@keyframes AvaBorderGradient {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
 }
 
 .WorkContainer {

@@ -1,5 +1,5 @@
 .layout {
-  background: linear-gradient(50deg, #e2a24878, #b49999ee);
+  background: linear-gradient(50deg, #f4db7d, rgba(114, 172, 216, 0.689));
   background-size: 1000% 1000%;
   animation: LayoutGradient 5s ease infinite;
   display: flex;
@@ -8,6 +8,29 @@
 }
 
 @keyframes LayoutGradient {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+
+@-webkit-keyframes LayoutGradient {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes LayoutGradient {
   0% {
     background-position: 0% 82%;
   }

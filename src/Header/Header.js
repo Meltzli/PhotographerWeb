@@ -15,7 +15,7 @@ export const Header = (props) => {
   return (
     <div className="HeaderContainer">
       <div className="LogoContainer">
-        <p className="HeaderText">Diana Photographer </p>
+        <p className="LogoText">Diana Photographer </p>
       </div>
       <div className="HeaderNavBar FlexSize">
         <div

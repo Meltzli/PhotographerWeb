@@ -4,7 +4,7 @@
   justify-content: center;
   background-color: white;
   border-radius: 100px;
-  box-shadow: 10px 20px 0 rgba(71, 26, 26, 0.425);
+  box-shadow: 10px 20px 0 #f4db7d;
 }
 
 .PhotoAbout {
